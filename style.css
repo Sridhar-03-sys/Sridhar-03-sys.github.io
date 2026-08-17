@@ -575,4 +575,16 @@ footer {
         max-width: 400px;
         margin-left: 0;
     }
+}.profile-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.profile-photo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0077B6;
 }
